@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedJobApproval.UI", "AutomatedJobApproval.UI\AutomatedJobApproval.UI.csproj", "{FFA0DF6F-0C6C-4883-9A56-89C00EA2D182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedJobApproval.API", "AutomatedJobApproval.API\AutomatedJobApproval.API.csproj", "{A85DE33D-F050-4454-905A-43B0383137DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedJobApproval.Tests", "AutomatedJobApproval.Tests\AutomatedJobApproval.Tests.csproj", "{58254C1E-512A-45DF-A6AF-74B4A8B3949D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Test", ".Test", "{A49D99E8-7898-4AC6-9302-D87308635A93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F013B227-E352-42A4-BDA2-CBBA61A2C127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6CC49D17-90B9-4682-864C-D07F5364A494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA0DF6F-0C6C-4883-9A56-89C00EA2D182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA0DF6F-0C6C-4883-9A56-89C00EA2D182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA0DF6F-0C6C-4883-9A56-89C00EA2D182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA0DF6F-0C6C-4883-9A56-89C00EA2D182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85DE33D-F050-4454-905A-43B0383137DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85DE33D-F050-4454-905A-43B0383137DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85DE33D-F050-4454-905A-43B0383137DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85DE33D-F050-4454-905A-43B0383137DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58254C1E-512A-45DF-A6AF-74B4A8B3949D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58254C1E-512A-45DF-A6AF-74B4A8B3949D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58254C1E-512A-45DF-A6AF-74B4A8B3949D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58254C1E-512A-45DF-A6AF-74B4A8B3949D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFA0DF6F-0C6C-4883-9A56-89C00EA2D182} = {6CC49D17-90B9-4682-864C-D07F5364A494}
+		{A85DE33D-F050-4454-905A-43B0383137DE} = {F013B227-E352-42A4-BDA2-CBBA61A2C127}
+		{58254C1E-512A-45DF-A6AF-74B4A8B3949D} = {A49D99E8-7898-4AC6-9302-D87308635A93}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B07E6E00-01DB-44C9-AE67-F11C8F0A1664}
+	EndGlobalSection
+EndGlobal
